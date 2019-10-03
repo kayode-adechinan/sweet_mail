@@ -1,0 +1,19 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+django = "*"
+gunicorn = "*"
+yapf = "*"
+django-markdownify = "*"
+django-crispy-forms = "*"
+celery = {extras = ["redis"],version = "*"}
+django-celery-results = "*"
+djangorestframework = "*"
+
+[requires]
+python_version = "3.7"
